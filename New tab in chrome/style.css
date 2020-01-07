@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "Neue";
+  src: url(fonts/75.ttf);
+}
+
+@font-face {
+  font-family: "Neue regular";
+  src: url(fonts/55.ttf);
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.banner {
+  margin: 0;
+  height: 100%;
+  min-width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+}
+header p {
+  margin: 0;
+  position: relative;
+  padding: 20px 20px;
+  color: white;
+  font-family: "Neue";
+  font-size: 15.3.px;
+  opacity: 85%;
+  /* width: 200px; */
+}
+
+header p:hover {
+  opacity: 100%;
+}
+
+.header {
+  display: flex;
+  height: 70px;
+}
+
+.temperature {
+  font-family: "Neue";
+  font-style: oblique;
+  height: 200px;
+}
+.temperature__detail {
+  font-size: 30px;
+  padding-bottom: 0;
+  /* justify-content: space-between; */
+}
+
+.temperature__detail p {
+  padding-bottom: 0;
+}
+
+.temperature__detail img {
+  width: 40px;
+  object-fit: contain;
+}
+
+.temperature__place {
+  padding-top: 0;
+  font-size: 13px;
+  text-transform: capitalize;
+  text-align: right;
+}
+
+.hour h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 15% 0 0 0;
+  font-size: 180px;
+  font-family: "Neue";
+  color: white;
+  letter-spacing: -8px;
+  margin: 0;
+}
+
+.hour h3 {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  position: relative;
+  /* padding: 10% 0; */
+  font-size: 60px;
+  font-family: "Neue";
+  color: white;
+  margin-top: -40px;
+  /* letter-spacing: -8px; */
+}
+
+.hour p {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  font-style: oblique;
+  font-size: 20px;
+  font-family: "Neue regular";
+  color: white;
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: 600;
+  padding-top: 5px;
+}
+.line {
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  width: 50%;
+  position: relative;
+  margin-top: 60px;
+}
+.container{
+  display: flex;
+  width: 100%;
+}
+.footer{
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  justify-content: space-between;
+  color: white;
+  font-family: "Neue Regular";
+  height: 100px;
+  padding: 0 20px;
+  margin: 0;
+}
+
