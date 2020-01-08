@@ -161,7 +161,8 @@ header nav {
   border-top: 1px solid #dfe1e5;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0fr 1fr ;
+  grid-template-rows: 1fr 1fr;
+/* grid-column-start: span 3; */
   align-items: center;
 }
 
@@ -187,3 +188,8 @@ header nav {
 .footer ul li a:hover{
   text-decoration: underline;
 }
+
+.footer div{
+ 
+}
+
