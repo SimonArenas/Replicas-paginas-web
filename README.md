@@ -6,5 +6,4 @@ En este repositorio se encuentran réplicas que he hecho de mis sitios favoritos
 
 -  https://google.com - > https://simonarenas.github.io/Google_replica/
 
-(https://simonarenas.github.io/Google_replica/)
 [![https://i.imgur.com/9Ob5iah.png](https://i.imgur.com/9Ob5iah.png "https://i.imgur.com/9Ob5iah.png")](https://i.imgur.com/9Ob5iah.png "https://i.imgur.com/9Ob5iah.png")
