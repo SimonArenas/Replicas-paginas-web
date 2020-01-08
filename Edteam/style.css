@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  height: 63px;
+  background-color: white;
+}
+
+header nav {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  align-items: center;
+  font-size: 15px;
+  height: inherit;
+}
+
+header nav ul {
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  padding-left: 0px;
+  align-items: center;
+}
+header nav li {
+  margin-left: 10px;
+}
+
+.logo {
+  background-image: url(img/logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 110px;
+  height: 40px;
+}
+
+header nav .nav-left {
+  justify-self: left;
+  margin-left: 100px;
+  white-space: nowrap;
+}
+
+header nav .nav-left a {
+  color: #53575a;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+header nav .nav-right a {
+  color: #53575a;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+header nav .nav-left li {
+  margin-left: 30px;
+}
+
+header nav .nav-right li {
+  margin-left: 30px;
+}
+header nav .nav-right {
+  justify-self: right;
+  margin-right: 100px;
+}
+
+header nav .nav-right .search-icon {
+  background-image: url(img/search.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+
+header nav .nav-right .flag {
+  background-image: url(img/mexico.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+}
+
+header nav .nav-right .start-button {
+  background-color: #1192ee;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 8px 8px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+header nav .nav-right .start-button:hover {
+  background-color: #0e7ecd;
+}
+
+header nav .nav-right .login-button {
+  padding: 6px 8px;
+  border-radius: 5px;
+  border: 1px solid #53575a;
+  color: #7a7d80;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  background-color: white;
+}
+
+header nav .nav-right .login-button:hover {
+  background-color: #53575a;
+  color: white;
+}
+
+main .banner {
+  background-color: #22303a;
+  display: flex;
+  width: 100%;
+  padding-bottom: 60px;
+}
+main .banner .banner-left {
+  width: 600px;
+  margin-left: 300px;
+  color: white;
+}
+
+main .banner .banner-left h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+main .banner .banner-left p {
+  font-family: "Open Sans", sans-serif;
+  opacity: 80%;
+}
+
+main .banner .banner-left span {
+  color: #66d1ff;
+}
+
+main .banner .banner-left button {
+  margin-top: 12px;
+  padding: 11px 18px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.2px;
+}
+
+main .banner .banner-left .pay-button {
+  margin-left: 20px;
+  border: 1px solid #66d1ff;
+  color: #66d1ff;
+  font-size: 14px;
+  background-color: transparent;
+}
+
+main .banner .banner-left .premium-button {
+  background-color: #1192ee;
+  color: white;
+}
+
+main .banner .banner-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+main .banner .banner-right img {
+  width: 590px;
+  height: 315px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+main .especialidades {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  flex-wrap: wrap;
+}
+
+main .especialidades img{
+  /* margin: 0px 30px; */
+  border-radius: 0.4rem;
+  width: 190px;
+  height: 105px;
+}
+
+main .especialidades-description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+main .especialidades-description .especialidades-detalles{
+    margin-top: 0;
+}
+main .especialidades-description .especialidades-detalles{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+
+}
+main .especialidades-description .icon-pack{
+    
+    background-image: url(img/box.png);
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 10px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#nombreDelCurso{
+    margin-bottom: 0;
+}
+
