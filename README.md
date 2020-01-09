@@ -12,3 +12,7 @@ En este repositorio se encuentran réplicas que he hecho de mis sitios favoritos
 #### Open new tab in chrome
 - https://simonarenas.github.io/NewTab_Replica/
 ![](https://i.imgur.com/lGLDOtg.png)
+
+#### Edteam
+- https://simonarenas.github.io/Edteam_replica/
+![](https://i.imgur.com/OaRNmIy.png)
