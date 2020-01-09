@@ -129,7 +129,7 @@ main .banner {
 }
 main .banner .banner-left {
   width: 600px;
-  margin-left: 300px;
+  margin-left: 150px;
   color: white;
 }
 
@@ -180,7 +180,7 @@ main .banner .banner-right {
 
 main .banner .banner-right img {
   width: 590px;
-  height: 315px;
+  object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -193,47 +193,80 @@ main .banner .banner-right img {
 
 main .especialidades {
   display: flex;
-  justify-content: center;
-  margin: 40px;
+  justify-content: space-evenly;
+  margin: 0px auto;
   flex-wrap: wrap;
+  width: 1240px;
 }
 
-main .especialidades img{
+main .especialidades img {
   /* margin: 0px 30px; */
   border-radius: 0.4rem;
   width: 190px;
   height: 105px;
+  display: flex;
 }
 
-main .especialidades-description{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+main .especialidades-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-main .especialidades-description .especialidades-detalles{
-    margin-top: 0;
-}
-main .especialidades-description .especialidades-detalles{
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-
-}
-main .especialidades-description .icon-pack{
-    
-    background-image: url(img/box.png);
-    width: 17px;
-    height: 17px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    margin-right: 10px;
-    margin-top: 0;
-    padding-top: 0;
+main .especialidades-description .especialidades-detalles {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #53575a;
+  margin-top: 5px;
 }
 
-#nombreDelCurso{
-    margin-bottom: 0;
+main .especialidades-description .especialidades-detalles p {
+  margin-top: 0;
+  font-size: 13px;
+}
+main .especialidades-description .icon-pack {
+  background-image: url(img/box.png);
+  width: 17px;
+  height: 17px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 10px;
+  margin-top: 0;
+  padding-top: 0;
 }
 
+#nombreDelCurso {
+  width: 190px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  color: #828282;
+  margin-top: 10px;
+}
+
+.TextoEspecialidades {
+
+  display: flex;
+  align-items: center;
+  margin: 45px 0 0 110px;
+}
+
+.TextoEspecialidades p{
+  padding: 0;
+  margin-left: 5px;
+  font-weight: 700;
+  opacity: 80%;
+  letter-spacing: .2px;}
+
+.TextoEspecialidades .GoalImage {
+  background-image: url(img/goal.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  width: 20px;
+  height: 20px;
+}
