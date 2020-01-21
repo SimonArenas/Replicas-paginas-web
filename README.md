@@ -16,3 +16,8 @@ En este repositorio se encuentran réplicas que he hecho de mis sitios favoritos
 #### Edteam
 - https://simonarenas.github.io/Edteam_replica/
 ![](https://i.imgur.com/OaRNmIy.png)
+
+### Pinterest
+- https://simonarenas.github.io/Pinterest_clone
+[![](https://i.imgur.com/SKV4mH5.jpg)](https://i.imgur.com/SKV4mH5.jpg)
+
